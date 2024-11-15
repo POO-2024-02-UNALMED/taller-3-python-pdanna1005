@@ -39,10 +39,12 @@ class TV:
     def setControl(self, newControl):
         self.control = newControl 
     
-    def getNumTV(self):
+    @classmethod
+    def getNumTV(cls):
         return TV.numTv
     
-    def setNumTV(self, newNumTV):
+    @classmethod
+    def setNumTV(cls, newNumTV):
         TV.numTV = newNumTV 
     
     def turnOn(self):
