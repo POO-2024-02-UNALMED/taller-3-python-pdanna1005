@@ -1,6 +1,6 @@
 class Control:
     def __init__(self):
-        self.tv = tv 
+        self.tv = None
     
     def turnOn(self):
         tv.turnOn()
