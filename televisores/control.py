@@ -30,8 +30,8 @@ class Control:
         self.tv = tvHost
         tvHost.setControl(self)
     
-    def getTV(self):
+    def getTv(self):
         return self.tv
     
-    def setTV(self, newTV):
+    def setTv(self, newTV):
         self.tv = newTV

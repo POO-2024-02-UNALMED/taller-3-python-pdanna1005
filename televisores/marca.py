@@ -1,7 +1,7 @@
 class Marca:
     numTV = 0
     def __init__(self):
-        self.nombre = nombre
+        self.nombre = None
         numTV = numTV + 1
     
     def __init__(self, nMarca):
