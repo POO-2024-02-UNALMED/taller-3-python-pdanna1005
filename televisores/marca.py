@@ -5,7 +5,7 @@ class Marca:
         numTV = numTV + 1
     
     def __init__(self, nMarca):
-        self.marca = nMarca
+        self.nombre = nMarca
     
     def getNombre (self):
         return self.nombre
